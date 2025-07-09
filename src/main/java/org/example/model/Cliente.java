@@ -31,7 +31,8 @@ public class Cliente {
     }
     
     public String getNome() {
-        return nome;
+         return nome;
+
     }
     
     public String getEmail() {

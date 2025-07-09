@@ -147,7 +147,8 @@ class PedidoTest {
         assertEquals(expectedMessage, exception.getMessage());
     }
 
-//Sem helper
+  //Sem helper
+    //sabemos como é criado os produtos e cliente
 
     @Test
     void deveCalcularTotal(){
@@ -171,6 +172,7 @@ class PedidoTest {
 
 
     //Com Helper
+    //Não precisamos intender o que esta sendo criado e testado com a ajuda dos helpers
     @Test
     void deveCalculartotalWithHelper(){
         Pedido pedido = new PedidoBuilder()

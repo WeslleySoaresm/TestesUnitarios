@@ -6,8 +6,8 @@ import org.example.utils.builders.ProdutoBuilder;
 public class ProdutoFixures {
     public static Produto camisetaBarata(){
         return new ProdutoBuilder()
-                .comNome("Camisera")
+                .comNome("Camiseta")
                 .comPreco(50.0)
                 .build();
-    }
+    } 
 }
