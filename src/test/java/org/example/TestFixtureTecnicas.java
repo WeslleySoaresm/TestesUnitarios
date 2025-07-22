@@ -25,7 +25,7 @@ public class TestFixtureTecnicas {
     }
 
     @Test
-    @DisplayName("Teste sem setup method")
+    @DisplayName("Teste sem setup methodd")
     void testCarrinhoSemSetup() {
         //Arrange
         Cliente cliente = new Cliente("João Lino Silva", "joao@email.com", "11987654321", true);
